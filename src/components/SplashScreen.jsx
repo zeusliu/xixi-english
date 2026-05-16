@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import splashImg from '../assets/splash.png';
 
 const SplashScreen = ({ onFinish }) => {
   const [fadeOut, setFadeOut] = useState(false);
@@ -18,7 +19,7 @@ const SplashScreen = ({ onFinish }) => {
 
   return (
     <div className={`splash-screen ${fadeOut ? 'fade-out' : ''}`}>
-      <img src="/src/assets/splash.png" alt="Splash Background" className="splash-image" />
+      <img src={splashImg} alt="Splash Background" className="splash-image" />
       <div className="splash-content">
         <h1 className="splash-title">English Kids</h1>
         <p className="splash-subtitle">Let's Learn and Play!</p>
