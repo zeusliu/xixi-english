@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const outDir = path.join(__dirname, 'src', 'assets', 'gen');
+const outDir = path.join(__dirname, 'public', 'gen');
 if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir, { recursive: true });
 }
@@ -86,7 +86,7 @@ function generateSvg(text, prefix, type = 'word') {
   
   const safeFilename = prefix + '_' + hash + '.svg';
   fs.writeFileSync(path.join(outDir, safeFilename), svg);
-  return `/src/assets/gen/${safeFilename}`;
+  return `gen/${safeFilename}`;
 }
 
 const lettersRaw = [
@@ -153,18 +153,18 @@ const sentencesRaw = [
 
 let lettersDataOut = "export const lettersData = [\n";
 for (const l of lettersRaw) {
-  let words = l.w.map(word => `{ text: "${word}", image: "${generateSvg(word, 'word')}" }`).join(",\n      ");
-  let sentences = l.s.map(sentence => `{ text: "${sentence}", image: "${generateSvg(sentence, 'sentence')}" }`).join(",\n      ");
+  let words = l.w.map(word => `{ text: "${word}", image: import.meta.env.BASE_URL + "${generateSvg(word, 'word')}" }`).join(",\n      ");
+  let sentences = l.s.map(sentence => `{ text: "${sentence}", image: import.meta.env.BASE_URL + "${generateSvg(sentence, 'sentence')}" }`).join(",\n      ");
   
-  let mainImage = l.l === "A" ? "/src/assets/apple.png" : l.l === "B" ? "/src/assets/bear.png" : generateSvg(`Letter ${l.l}`, 'main', 'main');
+  let mainImage = `import.meta.env.BASE_URL + "${generateSvg(`Letter ${l.l}`, 'main', 'main')}"`;
 
-  lettersDataOut += `  { \n    letter: "${l.l}", \n    image: "${mainImage}", \n    words: [\n      ${words}\n    ], \n    sentences: [\n      ${sentences}\n    ] \n  },\n`;
+  lettersDataOut += `  { \n    letter: "${l.l}", \n    image: ${mainImage}, \n    words: [\n      ${words}\n    ], \n    sentences: [\n      ${sentences}\n    ] \n  },\n`;
 }
 lettersDataOut += "];\n\n";
 
 let sentencesDataOut = "export const sentencesData = [\n";
 for (const s of sentencesRaw) {
-  let items = s.i.map(item => `{ text: "${item}", image: "${generateSvg(item, 'item')}" }`).join(",\n      ");
+  let items = s.i.map(item => `{ text: "${item}", image: import.meta.env.BASE_URL + "${generateSvg(item, 'item')}" }`).join(",\n      ");
   sentencesDataOut += `  { \n    id: "${s.id}", \n    title: "${s.t}", \n    items: [\n      ${items}\n    ] \n  },\n`;
 }
 sentencesDataOut += "];\n";
