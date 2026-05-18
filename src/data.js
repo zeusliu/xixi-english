@@ -372,7 +372,13 @@ export const sentencesData = [
     items: [
       { text: "This is a cat.", image: import.meta.env.BASE_URL + "gen/item_1413457995.svg" },
       { text: "This is an apple.", image: import.meta.env.BASE_URL + "gen/item_366813677.svg" },
-      { text: "This is my mom.", image: import.meta.env.BASE_URL + "gen/item_1119140387.svg" }
+      { text: "This is my mom.", image: import.meta.env.BASE_URL + "gen/item_1119140387.svg" },
+      { text: "This is a dog.", image: import.meta.env.BASE_URL + "gen/item_1413500837.svg" },
+      { text: "This is a book.", image: import.meta.env.BASE_URL + "gen/item_867015570.svg" },
+      { text: "This is a car.", image: import.meta.env.BASE_URL + "gen/item_1413457933.svg" },
+      { text: "This is my dad.", image: import.meta.env.BASE_URL + "gen/item_1118858535.svg" },
+      { text: "This is a tree.", image: import.meta.env.BASE_URL + "gen/item_883718525.svg" },
+      { text: "This is a ball.", image: import.meta.env.BASE_URL + "gen/item_866595644.svg" }
     ] 
   },
   { 
@@ -381,7 +387,13 @@ export const sentencesData = [
     items: [
       { text: "I like toys.", image: import.meta.env.BASE_URL + "gen/item_879814247.svg" },
       { text: "I like apples.", image: import.meta.env.BASE_URL + "gen/item_269601309.svg" },
-      { text: "I like dogs.", image: import.meta.env.BASE_URL + "gen/item_865020613.svg" }
+      { text: "I like dogs.", image: import.meta.env.BASE_URL + "gen/item_865020613.svg" },
+      { text: "I like cats.", image: import.meta.env.BASE_URL + "gen/item_863692511.svg" },
+      { text: "I like milk.", image: import.meta.env.BASE_URL + "gen/item_873158113.svg" },
+      { text: "I like books.", image: import.meta.env.BASE_URL + "gen/item_988809750.svg" },
+      { text: "I like bananas.", image: import.meta.env.BASE_URL + "gen/item_1480286994.svg" },
+      { text: "I like cars.", image: import.meta.env.BASE_URL + "gen/item_863690589.svg" },
+      { text: "I like ice cream.", image: import.meta.env.BASE_URL + "gen/item_432083597.svg" }
     ] 
   },
   { 
@@ -390,7 +402,13 @@ export const sentencesData = [
     items: [
       { text: "I want a car.", image: import.meta.env.BASE_URL + "gen/item_882677262.svg" },
       { text: "I want a ball.", image: import.meta.env.BASE_URL + "gen/item_1594118665.svg" },
-      { text: "I want to play.", image: import.meta.env.BASE_URL + "gen/item_393221646.svg" }
+      { text: "I want to play.", image: import.meta.env.BASE_URL + "gen/item_393221646.svg" },
+      { text: "I want a dog.", image: import.meta.env.BASE_URL + "gen/item_882634358.svg" },
+      { text: "I want a toy.", image: import.meta.env.BASE_URL + "gen/item_882157144.svg" },
+      { text: "I want an apple.", image: import.meta.env.BASE_URL + "gen/item_1413715470.svg" },
+      { text: "I want to run.", image: import.meta.env.BASE_URL + "gen/item_289847791.svg" },
+      { text: "I want to sing.", image: import.meta.env.BASE_URL + "gen/item_395914771.svg" },
+      { text: "I want some milk.", image: import.meta.env.BASE_URL + "gen/item_2135017344.svg" }
     ] 
   },
   { 
@@ -399,7 +417,13 @@ export const sentencesData = [
     items: [
       { text: "Hello! How are you?", image: import.meta.env.BASE_URL + "gen/item_473511155.svg" },
       { text: "Good morning!", image: import.meta.env.BASE_URL + "gen/item_197077824.svg" },
-      { text: "Good night!", image: import.meta.env.BASE_URL + "gen/item_1935396780.svg" }
+      { text: "Good night!", image: import.meta.env.BASE_URL + "gen/item_1935396780.svg" },
+      { text: "Goodbye! See you!", image: import.meta.env.BASE_URL + "gen/item_1319977087.svg" },
+      { text: "Nice to meet you.", image: import.meta.env.BASE_URL + "gen/item_501533830.svg" },
+      { text: "Thank you so much.", image: import.meta.env.BASE_URL + "gen/item_930279564.svg" },
+      { text: "You are welcome.", image: import.meta.env.BASE_URL + "gen/item_1958330329.svg" },
+      { text: "How is it going?", image: import.meta.env.BASE_URL + "gen/item_27506540.svg" },
+      { text: "Have a nice day!", image: import.meta.env.BASE_URL + "gen/item_288886609.svg" }
     ] 
   },
   { 
@@ -408,7 +432,13 @@ export const sentencesData = [
     items: [
       { text: "I can run.", image: import.meta.env.BASE_URL + "gen/item_645761866.svg" },
       { text: "I can jump.", image: import.meta.env.BASE_URL + "gen/item_1463605671.svg" },
-      { text: "I can sing.", image: import.meta.env.BASE_URL + "gen/item_1455650792.svg" }
+      { text: "I can sing.", image: import.meta.env.BASE_URL + "gen/item_1455650792.svg" },
+      { text: "I can swim.", image: import.meta.env.BASE_URL + "gen/item_1455238337.svg" },
+      { text: "I can read.", image: import.meta.env.BASE_URL + "gen/item_1456706063.svg" },
+      { text: "I can draw.", image: import.meta.env.BASE_URL + "gen/item_1469247485.svg" },
+      { text: "I can fly a kite.", image: import.meta.env.BASE_URL + "gen/item_1265182612.svg" },
+      { text: "I can ride a bike.", image: import.meta.env.BASE_URL + "gen/item_163894771.svg" },
+      { text: "I can clap my hands.", image: import.meta.env.BASE_URL + "gen/item_1656254595.svg" }
     ] 
   },
   { 
@@ -417,7 +447,13 @@ export const sentencesData = [
     items: [
       { text: "I have a pen.", image: import.meta.env.BASE_URL + "gen/item_1644904715.svg" },
       { text: "I have two eyes.", image: import.meta.env.BASE_URL + "gen/item_670338359.svg" },
-      { text: "I have a sister.", image: import.meta.env.BASE_URL + "gen/item_709346762.svg" }
+      { text: "I have a sister.", image: import.meta.env.BASE_URL + "gen/item_709346762.svg" },
+      { text: "I have a book.", image: import.meta.env.BASE_URL + "gen/item_534932901.svg" },
+      { text: "I have a cat.", image: import.meta.env.BASE_URL + "gen/item_1645295656.svg" },
+      { text: "I have a brother.", image: import.meta.env.BASE_URL + "gen/item_235069486.svg" },
+      { text: "I have two hands.", image: import.meta.env.BASE_URL + "gen/item_630368513.svg" },
+      { text: "I have a red hat.", image: import.meta.env.BASE_URL + "gen/item_989882398.svg" },
+      { text: "I have many toys.", image: import.meta.env.BASE_URL + "gen/item_253577511.svg" }
     ] 
   },
   { 
@@ -426,7 +462,13 @@ export const sentencesData = [
     items: [
       { text: "I am a boy.", image: import.meta.env.BASE_URL + "gen/item_1418596450.svg" },
       { text: "I am happy.", image: import.meta.env.BASE_URL + "gen/item_1157745493.svg" },
-      { text: "I am five.", image: import.meta.env.BASE_URL + "gen/item_1346523327.svg" }
+      { text: "I am five.", image: import.meta.env.BASE_URL + "gen/item_1346523327.svg" },
+      { text: "I am a girl.", image: import.meta.env.BASE_URL + "gen/item_1022382890.svg" },
+      { text: "I am sad.", image: import.meta.env.BASE_URL + "gen/item_182362549.svg" },
+      { text: "I am six years old.", image: import.meta.env.BASE_URL + "gen/item_934680908.svg" },
+      { text: "I am a student.", image: import.meta.env.BASE_URL + "gen/item_1503839473.svg" },
+      { text: "I am tired.", image: import.meta.env.BASE_URL + "gen/item_806759153.svg" },
+      { text: "I am brave.", image: import.meta.env.BASE_URL + "gen/item_1314262261.svg" }
     ] 
   },
   { 
@@ -435,7 +477,13 @@ export const sentencesData = [
     items: [
       { text: "It is red.", image: import.meta.env.BASE_URL + "gen/item_1287459102.svg" },
       { text: "It is sunny.", image: import.meta.env.BASE_URL + "gen/item_341384472.svg" },
-      { text: "It is a bird.", image: import.meta.env.BASE_URL + "gen/item_753072917.svg" }
+      { text: "It is a bird.", image: import.meta.env.BASE_URL + "gen/item_753072917.svg" },
+      { text: "It is big.", image: import.meta.env.BASE_URL + "gen/item_1286986383.svg" },
+      { text: "It is small.", image: import.meta.env.BASE_URL + "gen/item_333606696.svg" },
+      { text: "It is blue.", image: import.meta.env.BASE_URL + "gen/item_1241976787.svg" },
+      { text: "It is a toy.", image: import.meta.env.BASE_URL + "gen/item_252259824.svg" },
+      { text: "It is raining.", image: import.meta.env.BASE_URL + "gen/item_803609343.svg" },
+      { text: "It is a green leaf.", image: import.meta.env.BASE_URL + "gen/item_1679608243.svg" }
     ] 
   },
   { 
@@ -444,7 +492,13 @@ export const sentencesData = [
     items: [
       { text: "Let's play.", image: import.meta.env.BASE_URL + "gen/item_1751948671.svg" },
       { text: "Let's go.", image: import.meta.env.BASE_URL + "gen/item_1097608461.svg" },
-      { text: "Let's sing.", image: import.meta.env.BASE_URL + "gen/item_1749255546.svg" }
+      { text: "Let's sing.", image: import.meta.env.BASE_URL + "gen/item_1749255546.svg" },
+      { text: "Let's run.", image: import.meta.env.BASE_URL + "gen/item_333540580.svg" },
+      { text: "Let's jump.", image: import.meta.env.BASE_URL + "gen/item_1757210425.svg" },
+      { text: "Let's dance.", image: import.meta.env.BASE_URL + "gen/item_1170825396.svg" },
+      { text: "Let's read a book.", image: import.meta.env.BASE_URL + "gen/item_1163361397.svg" },
+      { text: "Let's eat cake.", image: import.meta.env.BASE_URL + "gen/item_2065813067.svg" },
+      { text: "Let's go to the zoo.", image: import.meta.env.BASE_URL + "gen/item_1063316361.svg" }
     ] 
   },
   { 
@@ -453,7 +507,13 @@ export const sentencesData = [
     items: [
       { text: "Do you like milk?", image: import.meta.env.BASE_URL + "gen/item_704861297.svg" },
       { text: "Do you like cats?", image: import.meta.env.BASE_URL + "gen/item_695395695.svg" },
-      { text: "Yes, I do.", image: import.meta.env.BASE_URL + "gen/item_1760644881.svg" }
+      { text: "Yes, I do.", image: import.meta.env.BASE_URL + "gen/item_1760644881.svg" },
+      { text: "Do you like dogs?", image: import.meta.env.BASE_URL + "gen/item_696723797.svg" },
+      { text: "Do you like apples?", image: import.meta.env.BASE_URL + "gen/item_1205899443.svg" },
+      { text: "Do you like toys?", image: import.meta.env.BASE_URL + "gen/item_711517431.svg" },
+      { text: "No, I don't.", image: import.meta.env.BASE_URL + "gen/item_1499978314.svg" },
+      { text: "Do you like cars?", image: import.meta.env.BASE_URL + "gen/item_695393773.svg" },
+      { text: "Do you like music.", image: import.meta.env.BASE_URL + "gen/item_387153756.svg" }
     ] 
   },
   { 
@@ -462,7 +522,13 @@ export const sentencesData = [
     items: [
       { text: "Where is mom?", image: import.meta.env.BASE_URL + "gen/item_1452770959.svg" },
       { text: "Where is the book?", image: import.meta.env.BASE_URL + "gen/item_1828282038.svg" },
-      { text: "It is here.", image: import.meta.env.BASE_URL + "gen/item_1247306493.svg" }
+      { text: "It is here.", image: import.meta.env.BASE_URL + "gen/item_1247306493.svg" },
+      { text: "Where is dad?", image: import.meta.env.BASE_URL + "gen/item_1453052811.svg" },
+      { text: "Where is my toy?", image: import.meta.env.BASE_URL + "gen/item_1102672024.svg" },
+      { text: "Where is the cat?", image: import.meta.env.BASE_URL + "gen/item_1167339051.svg" },
+      { text: "It is on the table.", image: import.meta.env.BASE_URL + "gen/item_1846611121.svg" },
+      { text: "It is under the bed.", image: import.meta.env.BASE_URL + "gen/item_2073879685.svg" },
+      { text: "It is there.", image: import.meta.env.BASE_URL + "gen/item_357742955.svg" }
     ] 
   },
   { 
@@ -471,7 +537,13 @@ export const sentencesData = [
     items: [
       { text: "What is this?", image: import.meta.env.BASE_URL + "gen/item_1864753319.svg" },
       { text: "It is a toy.", image: import.meta.env.BASE_URL + "gen/item_252259824.svg" },
-      { text: "What is that?", image: import.meta.env.BASE_URL + "gen/item_1864745662.svg" }
+      { text: "What is that?", image: import.meta.env.BASE_URL + "gen/item_1864745662.svg" },
+      { text: "It is a dog.", image: import.meta.env.BASE_URL + "gen/item_252737038.svg" },
+      { text: "It is a banana.", image: import.meta.env.BASE_URL + "gen/item_1915815401.svg" },
+      { text: "What is your name?", image: import.meta.env.BASE_URL + "gen/item_389338783.svg" },
+      { text: "It is a box.", image: import.meta.env.BASE_URL + "gen/item_252796093.svg" },
+      { text: "What is this color?", image: import.meta.env.BASE_URL + "gen/item_53733436.svg" },
+      { text: "It is an apple.", image: import.meta.env.BASE_URL + "gen/item_1972659366.svg" }
     ] 
   },
   { 
@@ -480,7 +552,13 @@ export const sentencesData = [
     items: [
       { text: "Can you jump?", image: import.meta.env.BASE_URL + "gen/item_1659434528.svg" },
       { text: "Can you see?", image: import.meta.env.BASE_URL + "gen/item_1054596067.svg" },
-      { text: "Yes, I can.", image: import.meta.env.BASE_URL + "gen/item_1254624752.svg" }
+      { text: "Yes, I can.", image: import.meta.env.BASE_URL + "gen/item_1254624752.svg" },
+      { text: "Can you run?", image: import.meta.env.BASE_URL + "gen/item_1054610203.svg" },
+      { text: "Can you swim?", image: import.meta.env.BASE_URL + "gen/item_1667801862.svg" },
+      { text: "Can you sing.", image: import.meta.env.BASE_URL + "gen/item_1667389390.svg" },
+      { text: "No, I can't.", image: import.meta.env.BASE_URL + "gen/item_1458419869.svg" },
+      { text: "Can you draw a cat?", image: import.meta.env.BASE_URL + "gen/item_938521331.svg" },
+      { text: "Can you ride a bike.", image: import.meta.env.BASE_URL + "gen/item_1708417431.svg" }
     ] 
   },
   { 
@@ -489,7 +567,13 @@ export const sentencesData = [
     items: [
       { text: "Look at the dog.", image: import.meta.env.BASE_URL + "gen/item_1710001709.svg" },
       { text: "Look at me.", image: import.meta.env.BASE_URL + "gen/item_491213994.svg" },
-      { text: "Look at the star.", image: import.meta.env.BASE_URL + "gen/item_1484443585.svg" }
+      { text: "Look at the star.", image: import.meta.env.BASE_URL + "gen/item_1484443585.svg" },
+      { text: "Look at the cat.", image: import.meta.env.BASE_URL + "gen/item_1709958867.svg" },
+      { text: "Look at the tree.", image: import.meta.env.BASE_URL + "gen/item_1485310965.svg" },
+      { text: "Look at the car.", image: import.meta.env.BASE_URL + "gen/item_1709958805.svg" },
+      { text: "Look at the rainbow.", image: import.meta.env.BASE_URL + "gen/item_877048691.svg" },
+      { text: "Look at the birds.", image: import.meta.env.BASE_URL + "gen/item_1723248241.svg" },
+      { text: "Look at the moon.", image: import.meta.env.BASE_URL + "gen/item_1478766834.svg" }
     ] 
   },
   { 
@@ -498,7 +582,13 @@ export const sentencesData = [
     items: [
       { text: "I see a bird.", image: import.meta.env.BASE_URL + "gen/item_2435598.svg" },
       { text: "I see the moon.", image: import.meta.env.BASE_URL + "gen/item_825854534.svg" },
-      { text: "I see a car.", image: import.meta.env.BASE_URL + "gen/item_1246869469.svg" }
+      { text: "I see a car.", image: import.meta.env.BASE_URL + "gen/item_1246869469.svg" },
+      { text: "I see a cat.", image: import.meta.env.BASE_URL + "gen/item_1246869531.svg" },
+      { text: "I see a dog.", image: import.meta.env.BASE_URL + "gen/item_1246912373.svg" },
+      { text: "I see a tree.", image: import.meta.env.BASE_URL + "gen/item_14443437.svg" },
+      { text: "I see a star.", image: import.meta.env.BASE_URL + "gen/item_13576057.svg" },
+      { text: "I see the sun.", image: import.meta.env.BASE_URL + "gen/item_1827571371.svg" },
+      { text: "I see my mom.", image: import.meta.env.BASE_URL + "gen/item_249865299.svg" }
     ] 
   },
   { 
@@ -507,7 +597,13 @@ export const sentencesData = [
     items: [
       { text: "Give me the ball.", image: import.meta.env.BASE_URL + "gen/item_1199616423.svg" },
       { text: "Give me a hug.", image: import.meta.env.BASE_URL + "gen/item_1396250580.svg" },
-      { text: "Give me the apple.", image: import.meta.env.BASE_URL + "gen/item_1481251972.svg" }
+      { text: "Give me the apple.", image: import.meta.env.BASE_URL + "gen/item_1481251972.svg" },
+      { text: "Give me the book.", image: import.meta.env.BASE_URL + "gen/item_1200036349.svg" },
+      { text: "Give me the toy.", image: import.meta.env.BASE_URL + "gen/item_593436664.svg" },
+      { text: "Give me some milk.", image: import.meta.env.BASE_URL + "gen/item_750098912.svg" },
+      { text: "Give me the pen.", image: import.meta.env.BASE_URL + "gen/item_593307549.svg" },
+      { text: "Please give me a cake.", image: import.meta.env.BASE_URL + "gen/item_615994952.svg" },
+      { text: "Give me a smile.", image: import.meta.env.BASE_URL + "gen/item_1459356194.svg" }
     ] 
   },
   { 
@@ -516,7 +612,13 @@ export const sentencesData = [
     items: [
       { text: "I don't like bugs.", image: import.meta.env.BASE_URL + "gen/item_394401069.svg" },
       { text: "I don't like dirt.", image: import.meta.env.BASE_URL + "gen/item_395901221.svg" },
-      { text: "I don't like rain.", image: import.meta.env.BASE_URL + "gen/item_408583352.svg" }
+      { text: "I don't like rain.", image: import.meta.env.BASE_URL + "gen/item_408583352.svg" },
+      { text: "I don't like snakes.", image: import.meta.env.BASE_URL + "gen/item_1236128391.svg" },
+      { text: "I don't like cold days.", image: import.meta.env.BASE_URL + "gen/item_1028677731.svg" },
+      { text: "I don't like onions.", image: import.meta.env.BASE_URL + "gen/item_483659838.svg" },
+      { text: "I don't like to cry.", image: import.meta.env.BASE_URL + "gen/item_380250073.svg" },
+      { text: "I don't like spiders.", image: import.meta.env.BASE_URL + "gen/item_1962664606.svg" },
+      { text: "I don't like this color.", image: import.meta.env.BASE_URL + "gen/item_551612427.svg" }
     ] 
   },
   { 
@@ -525,7 +627,13 @@ export const sentencesData = [
     items: [
       { text: "She is my friend.", image: import.meta.env.BASE_URL + "gen/item_1321144322.svg" },
       { text: "She is happy.", image: import.meta.env.BASE_URL + "gen/item_1978494604.svg" },
-      { text: "She is running.", image: import.meta.env.BASE_URL + "gen/item_2096119029.svg" }
+      { text: "She is running.", image: import.meta.env.BASE_URL + "gen/item_2096119029.svg" },
+      { text: "She is a girl.", image: import.meta.env.BASE_URL + "gen/item_695801555.svg" },
+      { text: "She is my teacher.", image: import.meta.env.BASE_URL + "gen/item_2046607386.svg" },
+      { text: "She is beautiful.", image: import.meta.env.BASE_URL + "gen/item_1219320349.svg" },
+      { text: "She is singing.", image: import.meta.env.BASE_URL + "gen/item_1772355137.svg" },
+      { text: "She is jumping.", image: import.meta.env.BASE_URL + "gen/item_1011756128.svg" },
+      { text: "She is eating an apple.", image: import.meta.env.BASE_URL + "gen/item_1852976375.svg" }
     ] 
   },
   { 
@@ -534,7 +642,13 @@ export const sentencesData = [
     items: [
       { text: "He is a boy.", image: import.meta.env.BASE_URL + "gen/item_802587828.svg" },
       { text: "He is tall.", image: import.meta.env.BASE_URL + "gen/item_1707950670.svg" },
-      { text: "He is playing.", image: import.meta.env.BASE_URL + "gen/item_1571105139.svg" }
+      { text: "He is playing.", image: import.meta.env.BASE_URL + "gen/item_1571105139.svg" },
+      { text: "He is my friend.", image: import.meta.env.BASE_URL + "gen/item_177186353.svg" },
+      { text: "He is my dad.", image: import.meta.env.BASE_URL + "gen/item_637745816.svg" },
+      { text: "He is strong.", image: import.meta.env.BASE_URL + "gen/item_325232228.svg" },
+      { text: "He is running fast.", image: import.meta.env.BASE_URL + "gen/item_1024144862.svg" },
+      { text: "He is reading a book.", image: import.meta.env.BASE_URL + "gen/item_658887999.svg" },
+      { text: "He is happy.", image: import.meta.env.BASE_URL + "gen/item_1063438785.svg" }
     ] 
   },
   { 
@@ -543,7 +657,13 @@ export const sentencesData = [
     items: [
       { text: "They are playing.", image: import.meta.env.BASE_URL + "gen/item_1300693788.svg" },
       { text: "They are friends.", image: import.meta.env.BASE_URL + "gen/item_308170659.svg" },
-      { text: "They are happy.", image: import.meta.env.BASE_URL + "gen/item_2101790066.svg" }
+      { text: "They are happy.", image: import.meta.env.BASE_URL + "gen/item_2101790066.svg" },
+      { text: "They are running.", image: import.meta.env.BASE_URL + "gen/item_1944545651.svg" },
+      { text: "They are singing.", image: import.meta.env.BASE_URL + "gen/item_1620781759.svg" },
+      { text: "They are brothers.", image: import.meta.env.BASE_URL + "gen/item_869490633.svg" },
+      { text: "They are big.", image: import.meta.env.BASE_URL + "gen/item_1177871278.svg" },
+      { text: "They are eating pizza.", image: import.meta.env.BASE_URL + "gen/item_1343714472.svg" },
+      { text: "They are at the zoo.", image: import.meta.env.BASE_URL + "gen/item_26609036.svg" }
     ] 
   },
   { 
@@ -552,7 +672,13 @@ export const sentencesData = [
     items: [
       { text: "We are family.", image: import.meta.env.BASE_URL + "gen/item_1077564748.svg" },
       { text: "We are eating.", image: import.meta.env.BASE_URL + "gen/item_196527078.svg" },
-      { text: "We are together.", image: import.meta.env.BASE_URL + "gen/item_1590046538.svg" }
+      { text: "We are together.", image: import.meta.env.BASE_URL + "gen/item_1590046538.svg" },
+      { text: "We are happy.", image: import.meta.env.BASE_URL + "gen/item_1709000436.svg" },
+      { text: "We are friends.", image: import.meta.env.BASE_URL + "gen/item_1129260407.svg" },
+      { text: "We are playing a game.", image: import.meta.env.BASE_URL + "gen/item_1330431475.svg" },
+      { text: "We are singing songs.", image: import.meta.env.BASE_URL + "gen/item_1674351237.svg" },
+      { text: "We are running.", image: import.meta.env.BASE_URL + "gen/item_912990579.svg" },
+      { text: "We are in the house.", image: import.meta.env.BASE_URL + "gen/item_490168314.svg" }
     ] 
   },
   { 
@@ -561,7 +687,13 @@ export const sentencesData = [
     items: [
       { text: "My name is Tom.", image: import.meta.env.BASE_URL + "gen/item_1228003249.svg" },
       { text: "This is my house.", image: import.meta.env.BASE_URL + "gen/item_1609249966.svg" },
-      { text: "My hands are clean.", image: import.meta.env.BASE_URL + "gen/item_1313884703.svg" }
+      { text: "My hands are clean.", image: import.meta.env.BASE_URL + "gen/item_1313884703.svg" },
+      { text: "This is my dog.", image: import.meta.env.BASE_URL + "gen/item_1118872082.svg" },
+      { text: "My bag is heavy.", image: import.meta.env.BASE_URL + "gen/item_86875793.svg" },
+      { text: "My dad is strong.", image: import.meta.env.BASE_URL + "gen/item_1382657394.svg" },
+      { text: "I love my mom.", image: import.meta.env.BASE_URL + "gen/item_1915873344.svg" },
+      { text: "My book is new.", image: import.meta.env.BASE_URL + "gen/item_1939408737.svg" },
+      { text: "This is my toy car.", image: import.meta.env.BASE_URL + "gen/item_222264324.svg" }
     ] 
   },
   { 
@@ -570,7 +702,13 @@ export const sentencesData = [
     items: [
       { text: "Is this your pen?", image: import.meta.env.BASE_URL + "gen/item_1922654375.svg" },
       { text: "Wash your hands.", image: import.meta.env.BASE_URL + "gen/item_1408392330.svg" },
-      { text: "Your shoes are big.", image: import.meta.env.BASE_URL + "gen/item_1773296865.svg" }
+      { text: "Your shoes are big.", image: import.meta.env.BASE_URL + "gen/item_1773296865.svg" },
+      { text: "Is this your book?", image: import.meta.env.BASE_URL + "gen/item_539885515.svg" },
+      { text: "I like your hat.", image: import.meta.env.BASE_URL + "gen/item_984430638.svg" },
+      { text: "Close your eyes.", image: import.meta.env.BASE_URL + "gen/item_1331284697.svg" },
+      { text: "Show me your toy.", image: import.meta.env.BASE_URL + "gen/item_766746104.svg" },
+      { text: "Your smile is pretty.", image: import.meta.env.BASE_URL + "gen/item_1554816569.svg" },
+      { text: "Where is your house?", image: import.meta.env.BASE_URL + "gen/item_1568441391.svg" }
     ] 
   },
   { 
@@ -579,7 +717,13 @@ export const sentencesData = [
     items: [
       { text: "The apple is red.", image: import.meta.env.BASE_URL + "gen/item_1367726434.svg" },
       { text: "The sky is blue.", image: import.meta.env.BASE_URL + "gen/item_1132158932.svg" },
-      { text: "The grass is green.", image: import.meta.env.BASE_URL + "gen/item_638461320.svg" }
+      { text: "The grass is green.", image: import.meta.env.BASE_URL + "gen/item_638461320.svg" },
+      { text: "The sun is yellow.", image: import.meta.env.BASE_URL + "gen/item_1587294023.svg" },
+      { text: "The cat is white.", image: import.meta.env.BASE_URL + "gen/item_636535934.svg" },
+      { text: "The dog is black.", image: import.meta.env.BASE_URL + "gen/item_2129989550.svg" },
+      { text: "The flower is pink.", image: import.meta.env.BASE_URL + "gen/item_487122264.svg" },
+      { text: "I like purple grapes.", image: import.meta.env.BASE_URL + "gen/item_546032236.svg" },
+      { text: "The orange is orange.", image: import.meta.env.BASE_URL + "gen/item_1782701587.svg" }
     ] 
   },
   { 
@@ -588,7 +732,13 @@ export const sentencesData = [
     items: [
       { text: "I have one nose.", image: import.meta.env.BASE_URL + "gen/item_1959790464.svg" },
       { text: "I see two birds.", image: import.meta.env.BASE_URL + "gen/item_1245845620.svg" },
-      { text: "Count to three.", image: import.meta.env.BASE_URL + "gen/item_1726651812.svg" }
+      { text: "Count to three.", image: import.meta.env.BASE_URL + "gen/item_1726651812.svg" },
+      { text: "I see four apples.", image: import.meta.env.BASE_URL + "gen/item_257461345.svg" },
+      { text: "I have five toys.", image: import.meta.env.BASE_URL + "gen/item_34659564.svg" },
+      { text: "He has six pens.", image: import.meta.env.BASE_URL + "gen/item_1698742163.svg" },
+      { text: "There are seven stars.", image: import.meta.env.BASE_URL + "gen/item_1667497976.svg" },
+      { text: "I see eight cars.", image: import.meta.env.BASE_URL + "gen/item_1131465734.svg" },
+      { text: "Let's count to ten.", image: import.meta.env.BASE_URL + "gen/item_1723664340.svg" }
     ] 
   },
   { 
@@ -597,7 +747,13 @@ export const sentencesData = [
     items: [
       { text: "The cow says moo.", image: import.meta.env.BASE_URL + "gen/item_628234219.svg" },
       { text: "The dog barks.", image: import.meta.env.BASE_URL + "gen/item_1932620134.svg" },
-      { text: "The cat meows.", image: import.meta.env.BASE_URL + "gen/item_1131040172.svg" }
+      { text: "The cat meows.", image: import.meta.env.BASE_URL + "gen/item_1131040172.svg" },
+      { text: "The lion is big.", image: import.meta.env.BASE_URL + "gen/item_660442161.svg" },
+      { text: "The bird can fly.", image: import.meta.env.BASE_URL + "gen/item_2019355235.svg" },
+      { text: "The fish can swim.", image: import.meta.env.BASE_URL + "gen/item_1991767613.svg" },
+      { text: "The monkey eats bananas.", image: import.meta.env.BASE_URL + "gen/item_2044332423.svg" },
+      { text: "The frog is green.", image: import.meta.env.BASE_URL + "gen/item_1208179572.svg" },
+      { text: "The rabbit likes carrots.", image: import.meta.env.BASE_URL + "gen/item_304121081.svg" }
     ] 
   },
   { 
@@ -606,7 +762,13 @@ export const sentencesData = [
     items: [
       { text: "This is my head.", image: import.meta.env.BASE_URL + "gen/item_328688302.svg" },
       { text: "Touch your toes.", image: import.meta.env.BASE_URL + "gen/item_869156441.svg" },
-      { text: "Clap your hands.", image: import.meta.env.BASE_URL + "gen/item_2073421231.svg" }
+      { text: "Clap your hands.", image: import.meta.env.BASE_URL + "gen/item_2073421231.svg" },
+      { text: "Touch your nose.", image: import.meta.env.BASE_URL + "gen/item_863628335.svg" },
+      { text: "Close your eyes.", image: import.meta.env.BASE_URL + "gen/item_1331284697.svg" },
+      { text: "Open your mouth.", image: import.meta.env.BASE_URL + "gen/item_698088478.svg" },
+      { text: "These are my ears.", image: import.meta.env.BASE_URL + "gen/item_664276838.svg" },
+      { text: "I have two feet.", image: import.meta.env.BASE_URL + "gen/item_670666091.svg" },
+      { text: "Wiggle your fingers.", image: import.meta.env.BASE_URL + "gen/item_1103950468.svg" }
     ] 
   },
   { 
@@ -615,7 +777,13 @@ export const sentencesData = [
     items: [
       { text: "I eat bread.", image: import.meta.env.BASE_URL + "gen/item_1180257227.svg" },
       { text: "Drink some milk.", image: import.meta.env.BASE_URL + "gen/item_1069225455.svg" },
-      { text: "I like rice.", image: import.meta.env.BASE_URL + "gen/item_877766883.svg" }
+      { text: "I like rice.", image: import.meta.env.BASE_URL + "gen/item_877766883.svg" },
+      { text: "I eat an apple.", image: import.meta.env.BASE_URL + "gen/item_109673208.svg" },
+      { text: "I like sweet cake.", image: import.meta.env.BASE_URL + "gen/item_1086584908.svg" },
+      { text: "This pizza is yummy.", image: import.meta.env.BASE_URL + "gen/item_977885619.svg" },
+      { text: "I want some juice.", image: import.meta.env.BASE_URL + "gen/item_1686127713.svg" },
+      { text: "I love ice cream.", image: import.meta.env.BASE_URL + "gen/item_1897066168.svg" },
+      { text: "Eat your banana.", image: import.meta.env.BASE_URL + "gen/item_947305884.svg" }
     ] 
   },
   { 
@@ -624,7 +792,13 @@ export const sentencesData = [
     items: [
       { text: "She is my mom.", image: import.meta.env.BASE_URL + "gen/item_448118511.svg" },
       { text: "He is my dad.", image: import.meta.env.BASE_URL + "gen/item_637745816.svg" },
-      { text: "I love my family.", image: import.meta.env.BASE_URL + "gen/item_1940860525.svg" }
+      { text: "I love my family.", image: import.meta.env.BASE_URL + "gen/item_1940860525.svg" },
+      { text: "I have a sister.", image: import.meta.env.BASE_URL + "gen/item_709346762.svg" },
+      { text: "I have a brother.", image: import.meta.env.BASE_URL + "gen/item_235069486.svg" },
+      { text: "This is my baby brother.", image: import.meta.env.BASE_URL + "gen/item_1772352472.svg" },
+      { text: "We play together.", image: import.meta.env.BASE_URL + "gen/item_483198650.svg" },
+      { text: "My dad loves me.", image: import.meta.env.BASE_URL + "gen/item_28255114.svg" },
+      { text: "My mom is nice.", image: import.meta.env.BASE_URL + "gen/item_1770621628.svg" }
     ] 
   },
   { 
@@ -633,7 +807,13 @@ export const sentencesData = [
     items: [
       { text: "I feel happy.", image: import.meta.env.BASE_URL + "gen/item_1400113073.svg" },
       { text: "I am sad.", image: import.meta.env.BASE_URL + "gen/item_182362549.svg" },
-      { text: "Are you angry?", image: import.meta.env.BASE_URL + "gen/item_1204950197.svg" }
+      { text: "Are you angry?", image: import.meta.env.BASE_URL + "gen/item_1204950197.svg" },
+      { text: "I feel hot.", image: import.meta.env.BASE_URL + "gen/item_1500203868.svg" },
+      { text: "It is cold.", image: import.meta.env.BASE_URL + "gen/item_1242981001.svg" },
+      { text: "I am tired.", image: import.meta.env.BASE_URL + "gen/item_806759153.svg" },
+      { text: "She is excited.", image: import.meta.env.BASE_URL + "gen/item_1037254406.svg" },
+      { text: "Are you scared?", image: import.meta.env.BASE_URL + "gen/item_224033166.svg" },
+      { text: "Don't be afraid.", image: import.meta.env.BASE_URL + "gen/item_473663122.svg" }
     ] 
   },
 ];

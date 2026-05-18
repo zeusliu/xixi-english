@@ -18,7 +18,14 @@ const AudioButton = ({ text }) => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel(); // 停止当前正在播放的语音
 
-      const utterance = new SpeechSynthesisUtterance(text);
+      // 优化 'a' 和 'A' 作为冠词在句子或短语中的发音，避免被读成字母 A (ay)
+      let spokenText = text;
+      if (spokenText && spokenText.trim().length > 1) {
+        // 使用正则替换独立的 'a' 或 'A' 为 'uh'，保留单词内部的 'a'（如 cat, apple 等）
+        spokenText = spokenText.replace(/\b[aA]\b/g, 'uh');
+      }
+
+      const utterance = new SpeechSynthesisUtterance(spokenText);
       
       // 筛选出美式发音
       const usVoices = voices.filter(v => v.lang === 'en-US' || v.lang === 'en_US');

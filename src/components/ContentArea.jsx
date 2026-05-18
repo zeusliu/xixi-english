@@ -1,5 +1,6 @@
 import React from 'react';
 import AudioButton from './AudioButton';
+import { translations } from '../translations';
 
 const ContentArea = ({ activeItem }) => {
   if (!activeItem) {
@@ -26,6 +27,7 @@ const ContentArea = ({ activeItem }) => {
             <div className="word-card" key={idx}>
               <img src={item.image} alt={item.text} className="card-image" />
               <span className="card-text">{item.text}</span>
+              <span className="card-translation">{translations[item.text] || ''}</span>
               <AudioButton text={item.text} />
             </div>
           ))}
@@ -37,6 +39,7 @@ const ContentArea = ({ activeItem }) => {
             <div className="word-card" key={idx}>
               <img src={item.image} alt={item.text} className="card-image" />
               <span className="card-text" style={{ fontSize: '1.4rem' }}>{item.text}</span>
+              <span className="card-translation" style={{ fontSize: '1.1rem' }}>{translations[item.text] || ''}</span>
               <AudioButton text={item.text} />
             </div>
           ))}
@@ -58,6 +61,7 @@ const ContentArea = ({ activeItem }) => {
             <div className="word-card" key={idx}>
               <img src={item.image} alt="Illustration" className="card-image" />
               <span className="card-text" style={{ fontSize: '1.5rem' }}>{item.text}</span>
+              <span className="card-translation" style={{ fontSize: '1.1rem' }}>{translations[item.text] || ''}</span>
               <AudioButton text={item.text} />
             </div>
           ))}
